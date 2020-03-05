@@ -1,0 +1,27 @@
+2020/03/05-23:15:22.444 7cd9 Reusing MANIFEST /home/akss13/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/05-23:15:22.444 7cd9 Recovering log #3090
+2020/03/05-23:15:22.444 7cd9 Reusing old log /home/akss13/.config/google-chrome/Default/Local Storage/leveldb/003090.log 
+2020/03/05-23:20:52.230 e20 Level-0 table #3095: started
+2020/03/05-23:20:52.260 e20 Level-0 table #3095: 14118 bytes OK
+2020/03/05-23:20:52.262 e20 Delete type=0 #3090
+2020/03/05-23:24:02.142 e20 Level-0 table #3097: started
+2020/03/05-23:24:02.172 e20 Level-0 table #3097: 12198 bytes OK
+2020/03/05-23:24:02.173 e20 Delete type=0 #3094
+2020/03/05-23:29:47.778 e20 Level-0 table #3099: started
+2020/03/05-23:29:47.807 e20 Level-0 table #3099: 10411 bytes OK
+2020/03/05-23:29:47.808 e20 Delete type=0 #3096
+2020/03/05-23:38:57.767 e20 Level-0 table #3101: started
+2020/03/05-23:38:57.797 e20 Level-0 table #3101: 11316 bytes OK
+2020/03/05-23:38:57.799 e20 Delete type=0 #3098
+2020/03/05-23:38:57.799 e20 Compacting 4@0 + 1@1 files
+2020/03/05-23:38:57.836 e20 Generated table #3102@0: 4743 keys, 2158930 bytes
+2020/03/05-23:38:57.836 e20 Compacted 4@0 + 1@1 files => 2158930 bytes
+2020/03/05-23:38:57.838 e20 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/05-23:38:57.838 e20 Delete type=2 #3092
+2020/03/05-23:38:57.838 e20 Delete type=2 #3095
+2020/03/05-23:38:57.838 e20 Delete type=2 #3101
+2020/03/05-23:38:57.838 e20 Delete type=2 #3099
+2020/03/05-23:38:57.838 e20 Delete type=2 #3097
+2020/03/05-23:49:03.880 e20 Level-0 table #3104: started
+2020/03/05-23:49:03.909 e20 Level-0 table #3104: 12414 bytes OK
+2020/03/05-23:49:03.912 e20 Delete type=0 #3100

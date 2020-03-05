@@ -1,0 +1,6 @@
+2020/03/06-01:32:08.416 427b Reusing MANIFEST /home/akss13/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/06-01:32:08.417 427b Recovering log #22
+2020/03/06-01:32:08.428 427b Reusing old log /home/akss13/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000022.log 
+2020/03/06-01:32:25.701 341e Level-0 table #27: started
+2020/03/06-01:32:25.737 341e Level-0 table #27: 1527131 bytes OK
+2020/03/06-01:32:25.747 341e Delete type=0 #22

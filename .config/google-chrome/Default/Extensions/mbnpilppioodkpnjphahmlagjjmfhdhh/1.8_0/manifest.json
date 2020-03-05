@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jq.js", "OneSignal.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "template.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/jq.js", "js/content-script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "This extension will help you in downloading all the reports of elab in one click",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "196": "img/196.png",
+      "32": "img/32.png",
+      "96": "img/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgnRa2/wjEMnbMp9a/D/zmStqJpt+fD47NTsHXD5coOCQmLj0v/WJt3Uvbu/VuecjX5DUtUEz25MQn0hVIX7A2l32KC71nxNxfeJ4hRRjWYHe2l2wCXrrSwBzegNm8m98zfhipQL8Q6tqpwaGYZSU/8XNk6j+5m4zBWWg4IkxssMaz7Kr+PgWecT5OH4dFwV7xJAWO35SkiOk8l0QRSu6oQ1CMUsEhk3nv4hEXLnged481UbYakIOOc1Tgb5BOCuyUMU5vemWPkIlSpl360Jiec3rZOKXoB97jZWGS1cRs0FCIsCGSLdyiFVGQJooOyC8Czwz273NmbjoyySR+M+OGQIDAQAB",
+   "manifest_version": 2,
+   "name": "SRM Elab Downloader",
+   "permissions": [ "gcm", "storage", "notifications", "identity", "management", "tabs", "notifications", "https://*/*", "http://*/*", "cookies", "webRequestBlocking", "storage", "webRequest", "downloads", "activeTab", "webNavigation" ],
+   "short_name": "SRM",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8"
+}

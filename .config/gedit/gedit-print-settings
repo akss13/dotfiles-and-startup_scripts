@@ -1,0 +1,10 @@
+[Print Settings]
+scale=100
+number-up=1
+reverse=false
+output-uri=file:///home/akss13/4_code.pdf
+page-set=all
+printer=Print to File
+print-pages=all
+collate=false
+output-file-format=pdf

@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Cerebro",
+    "description": "Extendable electron-based open-source Spolight and Alfred analogue",
+    "exec": "\"/home/akss13/Softwares/cerebro-0.3.1-x86_64.AppImage\" %U",
+    "hidden": false,
+    "icon": "/home/akss13/.local/share/icons/hicolor/1024x1024/apps/appimagekit-cerebro.png",
+    "filename": "appimagekit-cerebro.desktop",
+    "id": "appimagekit-cerebro.desktop",
+    "path": "/home/akss13/.local/share/applications/appimagekit-cerebro.desktop"
+  },
+  {
+    "name": "Arduino IDE",
+    "description": "Open-source electronics prototyping platform",
+    "exec": "\"/home/akss13/Softwares/arduino-1.8.12-linux64/arduino-1.8.12/arduino\"",
+    "hidden": false,
+    "icon": "/home/akss13/.local/share/icons/hicolor/256x256/apps/arduino-arduinoide.png",
+    "filename": "arduino-arduinoide.desktop",
+    "id": "arduino-arduinoide.desktop",
+    "path": "/home/akss13/.local/share/applications/arduino-arduinoide.desktop"
+  },
+  {
+    "name": "Telegram Desktop",
+    "description": "Official desktop version of Telegram messaging app",
+    "exec": "/home/akss13/Downloads/tsetup.1.9.14/Telegram/Telegram -- %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/512x512/apps/telegram.png",
+    "filename": "telegramdesktop.desktop",
+    "id": "telegramdesktop.desktop",
+    "path": "/home/akss13/.local/share/applications/telegramdesktop.desktop"
+  },
+  {
+    "name": "Arduino IDE",
+    "description": "Open-source electronics prototyping platform",
+    "exec": "\"/home/akss13/Softwares/arduino-1.8.12-linux64/arduino-1.8.12/arduino\"",
+    "hidden": false,
+    "icon": "/home/akss13/.local/share/icons/hicolor/256x256/apps/arduino-arduinoide.png",
+    "filename": "arduino-arduinoide.desktop",
+    "id": "arduino-arduinoide.desktop",
+    "path": "/usr/share/applications/arduino-arduinoide.desktop"
+  },
+  {
+    "name": "Audacious",
+    "description": "Listen to music",
+    "exec": "audacious %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/audacious.svg",
+    "filename": "audacious.desktop",
+    "id": "audacious.desktop",
+    "path": "/usr/share/applications/audacious.desktop"
+  },
+  {
+    "name": "Calf Plugin Pack for JACK",
+    "description": "Process and produce sounds using a set of plugins with JACK interface",
+    "exec": "calfjackhost",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/calf.svg",
+    "filename": "calf.desktop",
+    "id": "calf.desktop",
+    "path": "/usr/share/applications/calf.desktop"
+  },
+  {
+    "name": "Visual Studio Code",
+    "description": "Code Editing. Redefined.",
+    "exec": "/usr/share/code/code --no-sandbox --unity-launch %F",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/com.visualstudio.code.png",
+    "filename": "code.desktop",
+    "id": "code.desktop",
+    "path": "/usr/share/applications/code.desktop"
+  },
+  {
+    "name": "PulseEffects",
+    "description": "Audio Effects for PulseAudio Applications",
+    "exec": "pulseeffects",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/pulseeffects.svg",
+    "filename": "com.github.wwmm.pulseeffects.desktop",
+    "id": "com.github.wwmm.pulseeffects.desktop",
+    "path": "/usr/share/applications/com.github.wwmm.pulseeffects.desktop"
+  },
+  {
+    "name": "compton",
+    "description": "A X compositor",
+    "exec": "compton",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/compton.svg",
+    "filename": "compton.desktop",
+    "id": "compton.desktop",
+    "path": "/usr/share/applications/compton.desktop"
+  },
+  {
+    "name": "Image Viewer",
+    "description": "Browse and rotate images",
+    "exec": "eog %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.eog.svg",
+    "filename": "eog.desktop",
+    "id": "eog.desktop",
+    "path": "/usr/share/applications/eog.desktop"
+  },
+  {
+    "name": "Firefox Web Browser",
+    "description": "Browse the World Wide Web",
+    "exec": "firefox %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/128x128/apps/firefox.png",
+    "filename": "firefox.desktop",
+    "id": "firefox.desktop",
+    "path": "/usr/share/applications/firefox.desktop"
+  },
+  {
+    "name": "Settings",
+    "description": "",
+    "exec": "gnome-control-center",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Settings.svg",
+    "filename": "gnome-control-center.desktop",
+    "id": "gnome-control-center.desktop",
+    "path": "/usr/share/applications/gnome-control-center.desktop"
+  },
+  {
+    "name": "Language Support",
+    "description": "Configure multiple and native language support on your system",
+    "exec": "/usr/bin/gnome-language-selector",
+    "hidden": false,
+    "filename": "gnome-language-selector.desktop",
+    "id": "gnome-language-selector.desktop",
+    "path": "/usr/share/applications/gnome-language-selector.desktop"
+  },
+  {
+    "name": "Startup Applications",
+    "description": "Choose what applications to start when you log in",
+    "exec": "gnome-session-properties",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/session-properties.svg",
+    "filename": "gnome-session-properties.desktop",
+    "id": "gnome-session-properties.desktop",
+    "path": "/usr/share/applications/gnome-session-properties.desktop"
+  },
+  {
+    "name": "GNOME System Monitor",
+    "description": "View current processes and monitor system state",
+    "exec": "gnome-system-monitor",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.SystemMonitor.svg",
+    "filename": "gnome-system-monitor-kde.desktop",
+    "id": "gnome-system-monitor-kde.desktop",
+    "path": "/usr/share/applications/gnome-system-monitor-kde.desktop"
+  },
+  {
+    "name": "System Monitor",
+    "description": "View current processes and monitor system state",
+    "exec": "gnome-system-monitor",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.SystemMonitor.svg",
+    "filename": "gnome-system-monitor.desktop",
+    "id": "gnome-system-monitor.desktop",
+    "path": "/usr/share/applications/gnome-system-monitor.desktop"
+  },
+  {
+    "name": "Google Chrome",
+    "description": "Access the Internet",
+    "exec": "/usr/bin/google-chrome-stable %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/google-chrome.png",
+    "filename": "google-chrome.desktop",
+    "id": "google-chrome.desktop",
+    "path": "/usr/share/applications/google-chrome.desktop"
+  },
+  {
+    "name": "GParted",
+    "description": "Create, reorganize, and delete partitions",
+    "exec": "/usr/sbin/gparted %f",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/gparted.svg",
+    "filename": "gparted.desktop",
+    "id": "gparted.desktop",
+    "path": "/usr/share/applications/gparted.desktop"
+  },
+  {
+    "name": "Htop",
+    "description": "Show System Processes",
+    "exec": "htop",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/htop.png",
+    "filename": "htop.desktop",
+    "id": "htop.desktop",
+    "path": "/usr/share/applications/htop.desktop"
+  },
+  {
+    "name": "i3-gnome-flashback",
+    "description": "Improved dynamic tiling window manager",
+    "exec": "i3-gnome-flashback",
+    "hidden": false,
+    "filename": "i3-gnome-flashback.desktop",
+    "id": "i3-gnome-flashback.desktop",
+    "path": "/usr/share/applications/i3-gnome-flashback.desktop"
+  },
+  {
+    "name": "Input Method",
+    "description": "Set Keyboard Input Method",
+    "exec": "im-config",
+    "hidden": false,
+    "filename": "im-config.desktop",
+    "id": "im-config.desktop",
+    "path": "/usr/share/applications/im-config.desktop"
+  },
+  {
+    "name": "TeXInfo",
+    "description": "The viewer for TexInfo documents",
+    "exec": "info",
+    "hidden": false,
+    "filename": "info.desktop",
+    "id": "info.desktop",
+    "path": "/usr/share/applications/info.desktop"
+  },
+  {
+    "name": "LibreOffice Base",
+    "description": "Manage databases, create queries and reports to track and manage your information by using Base.",
+    "exec": "libreoffice --base %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-base.svg",
+    "filename": "libreoffice-base.desktop",
+    "id": "libreoffice-base.desktop",
+    "path": "/usr/share/applications/libreoffice-base.desktop"
+  },
+  {
+    "name": "LibreOffice Calc",
+    "description": "Perform calculations, analyze information and manage lists in spreadsheets by using Calc.",
+    "exec": "libreoffice --calc %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-calc.svg",
+    "filename": "libreoffice-calc.desktop",
+    "id": "libreoffice-calc.desktop",
+    "path": "/usr/share/applications/libreoffice-calc.desktop"
+  },
+  {
+    "name": "LibreOffice Draw",
+    "description": "Create and edit drawings, flow charts and logos by using Draw.",
+    "exec": "libreoffice --draw %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-draw.svg",
+    "filename": "libreoffice-draw.desktop",
+    "id": "libreoffice-draw.desktop",
+    "path": "/usr/share/applications/libreoffice-draw.desktop"
+  },
+  {
+    "name": "LibreOffice Impress",
+    "description": "Create and edit presentations for slideshows, meeting and Web pages by using Impress.",
+    "exec": "libreoffice --impress %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-impress.svg",
+    "filename": "libreoffice-impress.desktop",
+    "id": "libreoffice-impress.desktop",
+    "path": "/usr/share/applications/libreoffice-impress.desktop"
+  },
+  {
+    "name": "LibreOffice Writer",
+    "description": "Create and edit text and graphics in letters, reports, documents and Web pages by using Writer.",
+    "exec": "libreoffice --writer %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-writer.svg",
+    "filename": "libreoffice-writer.desktop",
+    "id": "libreoffice-writer.desktop",
+    "path": "/usr/share/applications/libreoffice-writer.desktop"
+  },
+  {
+    "name": "Logout",
+    "description": "",
+    "exec": "gnome-session-quit",
+    "hidden": false,
+    "filename": "logout.desktop",
+    "id": "logout.desktop",
+    "path": "/usr/share/applications/logout.desktop"
+  },
+  {
+    "name": "Advanced Network Configuration",
+    "description": "Manage and change your network connection settings",
+    "exec": "nm-connection-editor",
+    "hidden": false,
+    "filename": "nm-connection-editor.desktop",
+    "id": "nm-connection-editor.desktop",
+    "path": "/usr/share/applications/nm-connection-editor.desktop"
+  },
+  {
+    "name": "IBus Preferences",
+    "description": "Set IBus Preferences",
+    "exec": "ibus-setup",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/ibus-setup.svg",
+    "filename": "org.freedesktop.IBus.Setup.desktop",
+    "id": "org.freedesktop.IBus.Setup.desktop",
+    "path": "/usr/share/applications/org.freedesktop.IBus.Setup.desktop"
+  },
+  {
+    "name": "Disks",
+    "description": "Manage Drives and Media",
+    "exec": "gnome-disks",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.DiskUtility.svg",
+    "filename": "org.gnome.DiskUtility.desktop",
+    "id": "org.gnome.DiskUtility.desktop",
+    "path": "/usr/share/applications/org.gnome.DiskUtility.desktop"
+  },
+  {
+    "name": "Document Viewer",
+    "description": "View multi-page documents",
+    "exec": "evince %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Evince.svg",
+    "filename": "org.gnome.Evince.desktop",
+    "id": "org.gnome.Evince.desktop",
+    "path": "/usr/share/applications/org.gnome.Evince.desktop"
+  },
+  {
+    "name": "Archive Manager",
+    "description": "Create and modify an archive",
+    "exec": "file-roller %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.ArchiveManager.svg",
+    "filename": "org.gnome.FileRoller.desktop",
+    "id": "org.gnome.FileRoller.desktop",
+    "path": "/usr/share/applications/org.gnome.FileRoller.desktop"
+  },
+  {
+    "name": "Fonts",
+    "description": "View fonts on your system",
+    "exec": "gnome-font-viewer %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg",
+    "filename": "org.gnome.font-viewer.desktop",
+    "id": "org.gnome.font-viewer.desktop",
+    "path": "/usr/share/applications/org.gnome.font-viewer.desktop"
+  },
+  {
+    "name": "Text Editor",
+    "description": "Edit text files",
+    "exec": "gedit %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.gedit.svg",
+    "filename": "org.gnome.gedit.desktop",
+    "id": "org.gnome.gedit.desktop",
+    "path": "/usr/share/applications/org.gnome.gedit.desktop"
+  },
+  {
+    "name": "Files",
+    "description": "Access and organize files",
+    "exec": "nautilus --new-window %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Nautilus.svg",
+    "filename": "org.gnome.Nautilus.desktop",
+    "id": "org.gnome.Nautilus.desktop",
+    "path": "/usr/share/applications/org.gnome.Nautilus.desktop"
+  },
+  {
+    "name": "Power Statistics",
+    "description": "Observe power management",
+    "exec": "gnome-power-statistics",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.PowerStats.svg",
+    "filename": "org.gnome.PowerStats.desktop",
+    "id": "org.gnome.PowerStats.desktop",
+    "path": "/usr/share/applications/org.gnome.PowerStats.desktop"
+  },
+  {
+    "name": "Screenshot",
+    "description": "Save images of your screen or individual windows",
+    "exec": "gnome-screenshot --interactive",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Screenshot.svg",
+    "filename": "org.gnome.Screenshot.desktop",
+    "id": "org.gnome.Screenshot.desktop",
+    "path": "/usr/share/applications/org.gnome.Screenshot.desktop"
+  },
+  {
+    "name": "Passwords and Keys",
+    "description": "Manage your passwords and encryption keys",
+    "exec": "seahorse",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.seahorse.Application.svg",
+    "filename": "org.gnome.seahorse.Application.desktop",
+    "id": "org.gnome.seahorse.Application.desktop",
+    "path": "/usr/share/applications/org.gnome.seahorse.Application.desktop"
+  },
+  {
+    "name": "Software",
+    "description": "Add, remove or update software on this computer",
+    "exec": "gnome-software %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/org.gnome.Software.png",
+    "filename": "org.gnome.Software.desktop",
+    "id": "org.gnome.Software.desktop",
+    "path": "/usr/share/applications/org.gnome.Software.desktop"
+  },
+  {
+    "name": "Terminal",
+    "description": "Use the command line",
+    "exec": "gnome-terminal",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Terminal.svg",
+    "filename": "org.gnome.Terminal.desktop",
+    "id": "org.gnome.Terminal.desktop",
+    "path": "/usr/share/applications/org.gnome.Terminal.desktop"
+  },
+  {
+    "name": "Tweaks",
+    "description": "Tweak advanced GNOME 3 settings",
+    "exec": "gnome-tweaks",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.tweaks.svg",
+    "filename": "org.gnome.tweaks.desktop",
+    "id": "org.gnome.tweaks.desktop",
+    "path": "/usr/share/applications/org.gnome.tweaks.desktop"
+  },
+  {
+    "name": "Remontoire",
+    "description": "",
+    "exec": "remontoire",
+    "hidden": false,
+    "filename": "org.regolith-linux.remontoire.desktop",
+    "id": "org.regolith-linux.remontoire.desktop",
+    "path": "/usr/share/applications/org.regolith-linux.remontoire.desktop"
+  },
+  {
+    "name": "Reboot",
+    "description": "",
+    "exec": "gnome-session-quit --reboot",
+    "hidden": false,
+    "filename": "reboot.desktop",
+    "id": "reboot.desktop",
+    "path": "/usr/share/applications/reboot.desktop"
+  },
+  {
+    "name": "Shutdown Computer",
+    "description": "",
+    "exec": "gnome-session-quit --power-off",
+    "hidden": false,
+    "filename": "shutdown.desktop",
+    "id": "shutdown.desktop",
+    "path": "/usr/share/applications/shutdown.desktop"
+  },
+  {
+    "name": "Additional Drivers",
+    "description": "Configure third-party and proprietary drivers",
+    "exec": "/usr/bin/software-properties-gtk --open-tab=4",
+    "hidden": false,
+    "filename": "software-properties-drivers.desktop",
+    "id": "software-properties-drivers.desktop",
+    "path": "/usr/share/applications/software-properties-drivers.desktop"
+  },
+  {
+    "name": "Software & Updates",
+    "description": "Configure the sources for installable software and updates",
+    "exec": "software-properties-gtk",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/software-properties.svg",
+    "filename": "software-properties-gtk.desktop",
+    "id": "software-properties-gtk.desktop",
+    "path": "/usr/share/applications/software-properties-gtk.desktop"
+  },
+  {
+    "name": "Livepatch",
+    "description": "Manage Canonical Livepatch",
+    "exec": "/usr/bin/software-properties-gtk --open-tab=6",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/livepatch.svg",
+    "filename": "software-properties-livepatch.desktop",
+    "id": "software-properties-livepatch.desktop",
+    "path": "/usr/share/applications/software-properties-livepatch.desktop"
+  },
+  {
+    "name": "Regolith Terminal",
+    "description": "",
+    "exec": "st",
+    "hidden": false,
+    "filename": "st.desktop",
+    "id": "st.desktop",
+    "path": "/usr/share/applications/st.desktop"
+  },
+  {
+    "name": "Printers",
+    "description": "Configure printers",
+    "exec": "system-config-printer",
+    "hidden": false,
+    "filename": "system-config-printer.desktop",
+    "id": "system-config-printer.desktop",
+    "path": "/usr/share/applications/system-config-printer.desktop"
+  },
+  {
+    "name": "Telegram Desktop",
+    "description": "Official desktop version of Telegram messaging app",
+    "exec": "telegram-desktop -- %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/512x512/apps/telegram.png",
+    "filename": "telegramdesktop.desktop",
+    "id": "telegramdesktop.desktop",
+    "path": "/usr/share/applications/telegramdesktop.desktop"
+  },
+  {
+    "name": "Terminator",
+    "description": "Multiple terminals in one window",
+    "exec": "terminator",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/terminator.svg",
+    "filename": "terminator.desktop",
+    "id": "terminator.desktop",
+    "path": "/usr/share/applications/terminator.desktop"
+  },
+  {
+    "name": "TLPUI",
+    "description": "",
+    "exec": "/usr/bin/tlpui",
+    "hidden": false,
+    "filename": "tlpui.desktop",
+    "id": "tlpui.desktop",
+    "path": "/usr/share/applications/tlpui.desktop"
+  },
+  {
+    "name": "Software Updater",
+    "description": "Show and install available updates",
+    "exec": "/usr/bin/update-manager",
+    "hidden": false,
+    "filename": "update-manager.desktop",
+    "id": "update-manager.desktop",
+    "path": "/usr/share/applications/update-manager.desktop"
+  },
+  {
+    "name": "Vim",
+    "description": "Edit text files",
+    "exec": "vim %F",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/gvim.svg",
+    "filename": "vim.desktop",
+    "id": "vim.desktop",
+    "path": "/usr/share/applications/vim.desktop"
+  },
+  {
+    "name": "Xpad",
+    "description": "Jot down notes for later",
+    "exec": "xpad",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/xpad.svg",
+    "filename": "xpad.desktop",
+    "id": "xpad.desktop",
+    "path": "/usr/share/applications/xpad.desktop"
+  },
+  {
+    "name": "Help",
+    "description": "Get help with GNOME",
+    "exec": "yelp %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/org.gnome.Yelp.svg",
+    "filename": "yelp.desktop",
+    "id": "yelp.desktop",
+    "path": "/usr/share/applications/yelp.desktop"
+  },
+  {
+    "name": "Ubuntu Software",
+    "description": "Add, remove or update software on this computer",
+    "exec": "gnome-software %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/ubuntusoftware.svg",
+    "filename": "org.gnome.Software.desktop",
+    "id": "org.gnome.Software.desktop",
+    "path": "/usr/share/ubuntu/applications/org.gnome.Software.desktop"
+  },
+  {
+    "name": "Calculator",
+    "description": "Perform arithmetic, scientific or financial calculations",
+    "exec": "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/gnome-calculator_gnome-calculator.desktop /snap/bin/gnome-calculator",
+    "hidden": false,
+    "icon": "/snap/gnome-calculator/544/meta/gui/org.gnome.Calculator.svg",
+    "filename": "gnome-calculator_gnome-calculator.desktop",
+    "id": "gnome-calculator_gnome-calculator.desktop",
+    "path": "/var/lib/snapd/desktop/applications/gnome-calculator_gnome-calculator.desktop"
+  },
+  {
+    "name": "Characters",
+    "description": "Utility application to find and insert unusual characters",
+    "exec": "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/gnome-characters_gnome-characters.desktop /snap/bin/gnome-characters",
+    "hidden": false,
+    "icon": "/snap/gnome-characters/399/meta/gui/org.gnome.Characters.svg",
+    "filename": "gnome-characters_gnome-characters.desktop",
+    "id": "gnome-characters_gnome-characters.desktop",
+    "path": "/var/lib/snapd/desktop/applications/gnome-characters_gnome-characters.desktop"
+  },
+  {
+    "name": "Logs",
+    "description": "View detailed event logs for the system",
+    "exec": "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/gnome-logs_gnome-logs.desktop /snap/bin/gnome-logs %U",
+    "hidden": false,
+    "icon": "/snap/gnome-logs/81/meta/gui/org.gnome.Logs.svg",
+    "filename": "gnome-logs_gnome-logs.desktop",
+    "id": "gnome-logs_gnome-logs.desktop",
+    "path": "/var/lib/snapd/desktop/applications/gnome-logs_gnome-logs.desktop"
+  },
+  {
+    "name": "Spotify",
+    "description": "",
+    "exec": "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/spotify_spotify.desktop /snap/bin/spotify %U",
+    "hidden": false,
+    "icon": "/snap/spotify/41/usr/share/spotify/icons/spotify-linux-128.png",
+    "filename": "spotify_spotify.desktop",
+    "id": "spotify_spotify.desktop",
+    "path": "/var/lib/snapd/desktop/applications/spotify_spotify.desktop"
+  },
+  {
+    "name": "VLC media player",
+    "description": "Read, capture, broadcast your multimedia streams",
+    "exec": "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/vlc_vlc.desktop /snap/bin/vlc %U",
+    "hidden": false,
+    "icon": "/snap/vlc/1397/usr/share/icons/hicolor/256x256/apps/vlc.png",
+    "filename": "vlc_vlc.desktop",
+    "id": "vlc_vlc.desktop",
+    "path": "/var/lib/snapd/desktop/applications/vlc_vlc.desktop"
+  }
+]

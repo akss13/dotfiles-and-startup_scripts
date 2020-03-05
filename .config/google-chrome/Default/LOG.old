@@ -1,0 +1,161 @@
+2020/03/05-23:56:40.495 5791 Recovering log #805
+2020/03/05-23:56:40.495 5791 Level-0 table #808: started
+2020/03/05-23:56:40.523 5791 Level-0 table #808: 4399 bytes OK
+2020/03/05-23:56:40.527 5791 Delete type=0 #805
+2020/03/05-23:56:40.527 5791 Delete type=3 #701
+2020/03/05-23:56:40.527 50b5 Compacting 4@0 + 1@1 files
+2020/03/05-23:56:40.529 50b5 Generated table #810@0: 4 keys, 1549 bytes
+2020/03/05-23:56:40.529 50b5 Compacted 4@0 + 1@1 files => 1549 bytes
+2020/03/05-23:56:40.530 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/05-23:56:40.530 50b5 Delete type=2 #804
+2020/03/05-23:56:40.530 50b5 Delete type=2 #806
+2020/03/05-23:56:40.530 50b5 Delete type=2 #800
+2020/03/05-23:56:40.531 50b5 Delete type=2 #808
+2020/03/05-23:56:40.531 50b5 Delete type=2 #802
+2020/03/05-23:57:17.236 50b5 Level-0 table #812: started
+2020/03/05-23:57:17.264 50b5 Level-0 table #812: 15996 bytes OK
+2020/03/05-23:57:17.268 50b5 Delete type=0 #809
+2020/03/05-23:57:43.360 50b5 Level-0 table #814: started
+2020/03/05-23:57:43.389 50b5 Level-0 table #814: 15886 bytes OK
+2020/03/05-23:57:43.392 50b5 Delete type=0 #811
+2020/03/05-23:58:11.906 50b5 Level-0 table #816: started
+2020/03/05-23:58:11.934 50b5 Level-0 table #816: 15852 bytes OK
+2020/03/05-23:58:11.937 50b5 Delete type=0 #813
+2020/03/05-23:58:40.450 50b5 Level-0 table #818: started
+2020/03/05-23:58:40.480 50b5 Level-0 table #818: 15907 bytes OK
+2020/03/05-23:58:40.488 50b5 Delete type=0 #815
+2020/03/05-23:58:40.489 50b5 Compacting 4@0 + 1@1 files
+2020/03/05-23:58:40.493 50b5 Generated table #819@0: 4 keys, 1563 bytes
+2020/03/05-23:58:40.493 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/05-23:58:40.500 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/05-23:58:40.502 50b5 Delete type=2 #810
+2020/03/05-23:58:40.502 50b5 Delete type=2 #816
+2020/03/05-23:58:40.502 50b5 Delete type=2 #818
+2020/03/05-23:58:40.502 50b5 Delete type=2 #814
+2020/03/05-23:58:40.502 50b5 Delete type=2 #812
+2020/03/05-23:59:08.993 50b5 Level-0 table #821: started
+2020/03/05-23:59:09.025 50b5 Level-0 table #821: 15911 bytes OK
+2020/03/05-23:59:09.034 50b5 Delete type=0 #817
+2020/03/05-23:59:37.539 50b5 Level-0 table #823: started
+2020/03/05-23:59:37.571 50b5 Level-0 table #823: 15919 bytes OK
+2020/03/05-23:59:37.579 50b5 Delete type=0 #820
+2020/03/06-00:00:06.081 50b5 Level-0 table #825: started
+2020/03/06-00:00:06.088 50b5 Level-0 table #825: 15916 bytes OK
+2020/03/06-00:00:06.096 50b5 Delete type=0 #822
+2020/03/06-00:00:34.625 50b5 Level-0 table #827: started
+2020/03/06-00:00:34.658 50b5 Level-0 table #827: 15879 bytes OK
+2020/03/06-00:00:34.666 50b5 Delete type=0 #824
+2020/03/06-00:00:34.667 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:00:34.673 50b5 Generated table #828@0: 4 keys, 1563 bytes
+2020/03/06-00:00:34.673 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:00:34.680 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:00:34.681 50b5 Delete type=2 #821
+2020/03/06-00:00:34.681 50b5 Delete type=2 #823
+2020/03/06-00:00:34.681 50b5 Delete type=2 #825
+2020/03/06-00:00:34.681 50b5 Delete type=2 #827
+2020/03/06-00:00:34.681 50b5 Delete type=2 #819
+2020/03/06-00:01:03.170 50b5 Level-0 table #830: started
+2020/03/06-00:01:03.202 50b5 Level-0 table #830: 15897 bytes OK
+2020/03/06-00:01:03.210 50b5 Delete type=0 #826
+2020/03/06-00:01:31.713 50b5 Level-0 table #832: started
+2020/03/06-00:01:31.746 50b5 Level-0 table #832: 15890 bytes OK
+2020/03/06-00:01:31.754 50b5 Delete type=0 #829
+2020/03/06-00:02:00.257 50b5 Level-0 table #834: started
+2020/03/06-00:02:00.289 50b5 Level-0 table #834: 15890 bytes OK
+2020/03/06-00:02:00.297 50b5 Delete type=0 #831
+2020/03/06-00:02:28.802 50b5 Level-0 table #836: started
+2020/03/06-00:02:28.834 50b5 Level-0 table #836: 15896 bytes OK
+2020/03/06-00:02:28.842 50b5 Delete type=0 #833
+2020/03/06-00:02:28.843 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:02:28.849 50b5 Generated table #837@0: 4 keys, 1563 bytes
+2020/03/06-00:02:28.849 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:02:28.856 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:02:28.857 50b5 Delete type=2 #832
+2020/03/06-00:02:28.857 50b5 Delete type=2 #830
+2020/03/06-00:02:28.857 50b5 Delete type=2 #828
+2020/03/06-00:02:28.857 50b5 Delete type=2 #834
+2020/03/06-00:02:28.857 50b5 Delete type=2 #836
+2020/03/06-00:02:57.346 50b5 Level-0 table #839: started
+2020/03/06-00:02:57.378 50b5 Level-0 table #839: 15919 bytes OK
+2020/03/06-00:02:57.385 50b5 Delete type=0 #835
+2020/03/06-00:03:25.891 50b5 Level-0 table #841: started
+2020/03/06-00:03:25.901 50b5 Level-0 table #841: 15891 bytes OK
+2020/03/06-00:03:25.909 50b5 Delete type=0 #838
+2020/03/06-00:03:54.434 50b5 Level-0 table #843: started
+2020/03/06-00:03:54.466 50b5 Level-0 table #843: 15890 bytes OK
+2020/03/06-00:03:54.474 50b5 Delete type=0 #840
+2020/03/06-00:04:22.980 50b5 Level-0 table #845: started
+2020/03/06-00:04:23.012 50b5 Level-0 table #845: 15887 bytes OK
+2020/03/06-00:04:23.021 50b5 Delete type=0 #842
+2020/03/06-00:04:23.021 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:04:23.027 50b5 Generated table #846@0: 4 keys, 1563 bytes
+2020/03/06-00:04:23.027 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:04:23.034 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:04:23.036 50b5 Delete type=2 #839
+2020/03/06-00:04:23.036 50b5 Delete type=2 #841
+2020/03/06-00:04:23.036 50b5 Delete type=2 #845
+2020/03/06-00:04:23.036 50b5 Delete type=2 #837
+2020/03/06-00:04:23.036 50b5 Delete type=2 #843
+2020/03/06-00:04:51.523 50b5 Level-0 table #848: started
+2020/03/06-00:04:51.555 50b5 Level-0 table #848: 15871 bytes OK
+2020/03/06-00:04:51.566 50b5 Delete type=0 #844
+2020/03/06-00:05:20.069 50b5 Level-0 table #850: started
+2020/03/06-00:05:20.101 50b5 Level-0 table #850: 15898 bytes OK
+2020/03/06-00:05:20.109 50b5 Delete type=0 #847
+2020/03/06-00:05:48.615 50b5 Level-0 table #852: started
+2020/03/06-00:05:48.621 50b5 Level-0 table #852: 15971 bytes OK
+2020/03/06-00:05:48.629 50b5 Delete type=0 #849
+2020/03/06-00:06:17.161 50b5 Level-0 table #854: started
+2020/03/06-00:06:17.193 50b5 Level-0 table #854: 15969 bytes OK
+2020/03/06-00:06:17.201 50b5 Delete type=0 #851
+2020/03/06-00:06:17.202 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:06:17.208 50b5 Generated table #855@0: 4 keys, 1563 bytes
+2020/03/06-00:06:17.208 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:06:17.215 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:06:17.216 50b5 Delete type=2 #852
+2020/03/06-00:06:17.216 50b5 Delete type=2 #846
+2020/03/06-00:06:17.217 50b5 Delete type=2 #854
+2020/03/06-00:06:17.217 50b5 Delete type=2 #848
+2020/03/06-00:06:17.217 50b5 Delete type=2 #850
+2020/03/06-00:06:45.707 50b5 Level-0 table #857: started
+2020/03/06-00:06:45.740 50b5 Level-0 table #857: 15904 bytes OK
+2020/03/06-00:06:45.748 50b5 Delete type=0 #853
+2020/03/06-00:07:14.254 50b5 Level-0 table #859: started
+2020/03/06-00:07:14.286 50b5 Level-0 table #859: 15947 bytes OK
+2020/03/06-00:07:14.295 50b5 Delete type=0 #856
+2020/03/06-00:07:42.799 50b5 Level-0 table #861: started
+2020/03/06-00:07:42.831 50b5 Level-0 table #861: 15886 bytes OK
+2020/03/06-00:07:42.840 50b5 Delete type=0 #858
+2020/03/06-00:08:11.343 50b5 Level-0 table #863: started
+2020/03/06-00:08:11.375 50b5 Level-0 table #863: 15899 bytes OK
+2020/03/06-00:08:11.383 50b5 Delete type=0 #860
+2020/03/06-00:08:11.384 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:08:11.389 50b5 Generated table #864@0: 4 keys, 1563 bytes
+2020/03/06-00:08:11.389 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:08:11.396 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:08:11.398 50b5 Delete type=2 #857
+2020/03/06-00:08:11.398 50b5 Delete type=2 #855
+2020/03/06-00:08:11.398 50b5 Delete type=2 #863
+2020/03/06-00:08:11.398 50b5 Delete type=2 #859
+2020/03/06-00:08:11.398 50b5 Delete type=2 #861
+2020/03/06-00:08:39.889 50b5 Level-0 table #866: started
+2020/03/06-00:08:39.921 50b5 Level-0 table #866: 15852 bytes OK
+2020/03/06-00:08:39.930 50b5 Delete type=0 #862
+2020/03/06-00:09:08.434 50b5 Level-0 table #868: started
+2020/03/06-00:09:08.440 50b5 Level-0 table #868: 15852 bytes OK
+2020/03/06-00:09:08.448 50b5 Delete type=0 #865
+2020/03/06-00:09:36.979 50b5 Level-0 table #870: started
+2020/03/06-00:09:37.012 50b5 Level-0 table #870: 15854 bytes OK
+2020/03/06-00:09:37.020 50b5 Delete type=0 #867
+2020/03/06-00:10:05.525 50b5 Level-0 table #872: started
+2020/03/06-00:10:05.557 50b5 Level-0 table #872: 15854 bytes OK
+2020/03/06-00:10:05.565 50b5 Delete type=0 #869
+2020/03/06-00:10:05.566 50b5 Compacting 4@0 + 1@1 files
+2020/03/06-00:10:05.572 50b5 Generated table #873@0: 4 keys, 1563 bytes
+2020/03/06-00:10:05.572 50b5 Compacted 4@0 + 1@1 files => 1563 bytes
+2020/03/06-00:10:05.579 50b5 compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/03/06-00:10:05.580 50b5 Delete type=2 #864
+2020/03/06-00:10:05.580 50b5 Delete type=2 #866
+2020/03/06-00:10:05.580 50b5 Delete type=2 #872
+2020/03/06-00:10:05.580 50b5 Delete type=2 #870
+2020/03/06-00:10:05.580 50b5 Delete type=2 #868

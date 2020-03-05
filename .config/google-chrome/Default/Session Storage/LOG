@@ -1,0 +1,66 @@
+2020/03/06-00:12:19.423 91e Reusing MANIFEST /home/akss13/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/03/06-00:12:19.423 91e Recovering log #1517
+2020/03/06-00:12:19.424 91e Reusing old log /home/akss13/.config/google-chrome/Default/Session Storage/001517.log 
+2020/03/06-00:16:21.403 16ec Level-0 table #1521: started
+2020/03/06-00:16:21.412 16ec Level-0 table #1521: 20165 bytes OK
+2020/03/06-00:16:21.419 16ec Delete type=0 #1517
+2020/03/06-00:51:24.391 16ec Level-0 table #1523: started
+2020/03/06-00:51:24.424 16ec Level-0 table #1523: 19521 bytes OK
+2020/03/06-00:51:24.432 16ec Delete type=0 #1520
+2020/03/06-01:13:21.340 16ec Level-0 table #1525: started
+2020/03/06-01:13:21.374 16ec Level-0 table #1525: 18266 bytes OK
+2020/03/06-01:13:21.381 16ec Delete type=0 #1522
+2020/03/06-01:13:21.381 16ec Compacting 4@0 + 1@1 files
+2020/03/06-01:13:21.408 16ec Generated table #1526@0: 10698 keys, 252457 bytes
+2020/03/06-01:13:21.408 16ec Compacted 4@0 + 1@1 files => 252457 bytes
+2020/03/06-01:13:21.415 16ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-01:13:21.415 16ec Delete type=2 #1515
+2020/03/06-01:13:21.415 16ec Delete type=2 #1518
+2020/03/06-01:13:21.415 16ec Delete type=2 #1523
+2020/03/06-01:13:21.415 16ec Delete type=2 #1525
+2020/03/06-01:13:21.415 16ec Delete type=2 #1521
+2020/03/06-01:45:06.919 16ec Level-0 table #1528: started
+2020/03/06-01:45:06.953 16ec Level-0 table #1528: 25866 bytes OK
+2020/03/06-01:45:06.959 16ec Delete type=0 #1524
+2020/03/06-01:46:06.920 16ec Level-0 table #1530: started
+2020/03/06-01:46:06.954 16ec Level-0 table #1530: 23328 bytes OK
+2020/03/06-01:46:06.960 16ec Delete type=0 #1527
+2020/03/06-01:47:06.919 16ec Level-0 table #1532: started
+2020/03/06-01:47:06.954 16ec Level-0 table #1532: 49166 bytes OK
+2020/03/06-01:47:06.960 16ec Delete type=0 #1529
+2020/03/06-01:48:06.919 16ec Level-0 table #1534: started
+2020/03/06-01:48:06.952 16ec Level-0 table #1534: 15539 bytes OK
+2020/03/06-01:48:06.956 16ec Delete type=0 #1531
+2020/03/06-01:48:06.956 16ec Compacting 4@0 + 1@1 files
+2020/03/06-01:48:06.986 16ec Generated table #1535@0: 10780 keys, 272480 bytes
+2020/03/06-01:48:06.986 16ec Compacted 4@0 + 1@1 files => 272480 bytes
+2020/03/06-01:48:06.989 16ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-01:48:06.989 16ec Delete type=2 #1528
+2020/03/06-01:48:06.990 16ec Delete type=2 #1526
+2020/03/06-01:48:06.990 16ec Delete type=2 #1534
+2020/03/06-01:48:06.990 16ec Delete type=2 #1530
+2020/03/06-01:48:06.990 16ec Delete type=2 #1532
+2020/03/06-01:49:14.588 16ec Level-0 table #1537: started
+2020/03/06-01:49:14.620 16ec Level-0 table #1537: 33172 bytes OK
+2020/03/06-01:49:14.626 16ec Delete type=0 #1533
+2020/03/06-01:51:14.489 16ec Level-0 table #1539: started
+2020/03/06-01:51:14.521 16ec Level-0 table #1539: 22193 bytes OK
+2020/03/06-01:51:14.527 16ec Delete type=0 #1536
+2020/03/06-01:52:01.652 16ec Level-0 table #1541: started
+2020/03/06-01:52:01.689 16ec Level-0 table #1541: 41844 bytes OK
+2020/03/06-01:52:01.693 16ec Delete type=0 #1538
+2020/03/06-01:52:04.605 16ec Level-0 table #1543: started
+2020/03/06-01:52:04.642 16ec Level-0 table #1543: 69511 bytes OK
+2020/03/06-01:52:04.646 16ec Delete type=0 #1540
+2020/03/06-01:52:04.646 16ec Compacting 4@0 + 1@1 files
+2020/03/06-01:52:04.681 16ec Generated table #1544@0: 10780 keys, 327123 bytes
+2020/03/06-01:52:04.681 16ec Compacted 4@0 + 1@1 files => 327123 bytes
+2020/03/06-01:52:04.684 16ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-01:52:04.684 16ec Delete type=2 #1541
+2020/03/06-01:52:04.684 16ec Delete type=2 #1543
+2020/03/06-01:52:04.684 16ec Delete type=2 #1535
+2020/03/06-01:52:04.684 16ec Delete type=2 #1539
+2020/03/06-01:52:04.684 16ec Delete type=2 #1537
+2020/03/06-01:54:25.878 16ec Level-0 table #1546: started
+2020/03/06-01:54:25.882 16ec Level-0 table #1546: 17756 bytes OK
+2020/03/06-01:54:25.888 16ec Delete type=0 #1542

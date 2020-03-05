@@ -1,0 +1,35 @@
+-->NOTES 
+utorrent
+http://142.93.210.183:8080/gui/web/index.html
+utserver -settingspath /opt/utorrent-server-alpha-v3_3/ &
+sudo pkill utserver
+--------------------------------------------------------
+PI
+username: pi
+password: Welcome123
+192.168.4.1
+--------------------------------------------------------
+-->wireshark
+-->copy daemon
+-->unit testing 
+-->cmake usage
+--------------------------------------------------------
+-->scp -P 443 -r root@142.93.210.183:/root/ubuntu-19.10-live-server-amd64.iso /home/ak13/Downloads
+---------------------------------------------------------------
+rsync -a -P -e "ssh -p 993" root@142.93.210.183:/root/ubuntu-19.10-live-server-amd64.iso /home/ak13/Downloads
+rsync -a -P  "ssh -p 993" root@142.93.210.183:/root/regolith-19.10.0-R1.3-desktop-amd64.iso /home/ak13/Downloads
+rsync -chavzP -e "ssh -p 993" root@142.93.210.183:/root/rsync -a -P  "ssh -p 993" root@142.93.210.183:/root/regolith-19.10.0-R1.3-desktop-amd64.iso /home/ak13/Downloads /home/ak13/Downloads
+
+rsync -chavzP -e "ssh -p 993" root@142.93.210.183:/root/regolith-19.10.0-R1.3-desktop-amd64.iso /home/ak13/Downloads
+
+rsync -chavzP -e "ssh -p 993" root@142.93.210.183:/root/spider_man /home/ak13/Downloads
+------------------------------------------------
+For assignment, you be doing project max as group of 3 .
+Tasks is to work on data set and use  R for 
+1. Data cleaning 
+2. Data exploration and visualisation
+3. Machine learning algorithm 
+4. Visualisation 
+Should show demo and submit report
+---------------------------------------------
+cerebro and transfer arc theme to config file

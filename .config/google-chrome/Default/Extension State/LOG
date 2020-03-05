@@ -1,0 +1,66 @@
+2020/03/06-00:12:20.637 8f1 Reusing MANIFEST /home/akss13/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2020/03/06-00:12:20.638 8f1 Recovering log #2039
+2020/03/06-00:12:20.651 8f1 Reusing old log /home/akss13/.config/google-chrome/Default/Extension State/002039.log 
+2020/03/06-00:15:56.104 9f9 Level-0 table #2043: started
+2020/03/06-00:15:56.123 9f9 Level-0 table #2043: 3953831 bytes OK
+2020/03/06-00:15:56.130 9f9 Delete type=0 #2039
+2020/03/06-00:37:50.133 9f9 Level-0 table #2045: started
+2020/03/06-00:37:50.182 9f9 Level-0 table #2045: 4085016 bytes OK
+2020/03/06-00:37:50.191 9f9 Delete type=0 #2042
+2020/03/06-00:37:50.193 9f9 Compacting 4@0 + 1@1 files
+2020/03/06-00:37:50.218 9f9 Generated table #2046@0: 7 keys, 46458 bytes
+2020/03/06-00:37:50.218 9f9 Compacted 4@0 + 1@1 files => 46458 bytes
+2020/03/06-00:37:50.225 9f9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-00:37:50.225 9f9 Delete type=2 #2035
+2020/03/06-00:37:50.225 9f9 Delete type=2 #2043
+2020/03/06-00:37:50.225 9f9 Delete type=2 #2045
+2020/03/06-00:37:50.225 9f9 Delete type=2 #2040
+2020/03/06-00:37:50.225 9f9 Delete type=2 #2037
+2020/03/06-00:49:15.066 9f9 Level-0 table #2048: started
+2020/03/06-00:49:15.119 9f9 Level-0 table #2048: 4165566 bytes OK
+2020/03/06-00:49:15.130 9f9 Delete type=0 #2044
+2020/03/06-01:00:25.147 9f9 Level-0 table #2050: started
+2020/03/06-01:00:25.165 9f9 Level-0 table #2050: 4118322 bytes OK
+2020/03/06-01:00:25.172 9f9 Delete type=0 #2047
+2020/03/06-01:28:25.806 9f9 Level-0 table #2052: started
+2020/03/06-01:28:25.854 9f9 Level-0 table #2052: 4039396 bytes OK
+2020/03/06-01:28:25.860 9f9 Delete type=0 #2049
+2020/03/06-01:35:12.380 9f9 Level-0 table #2054: started
+2020/03/06-01:35:12.426 9f9 Level-0 table #2054: 4077211 bytes OK
+2020/03/06-01:35:12.431 9f9 Delete type=0 #2051
+2020/03/06-01:35:12.431 9f9 Compacting 4@0 + 1@1 files
+2020/03/06-01:35:12.445 9f9 Generated table #2055@0: 7 keys, 34954 bytes
+2020/03/06-01:35:12.445 9f9 Compacted 4@0 + 1@1 files => 34954 bytes
+2020/03/06-01:35:12.450 9f9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-01:35:12.450 9f9 Delete type=2 #2054
+2020/03/06-01:35:12.450 9f9 Delete type=2 #2050
+2020/03/06-01:35:12.450 9f9 Delete type=2 #2052
+2020/03/06-01:35:12.450 9f9 Delete type=2 #2048
+2020/03/06-01:35:12.450 9f9 Delete type=2 #2046
+2020/03/06-01:43:36.215 9f9 Level-0 table #2057: started
+2020/03/06-01:43:36.261 9f9 Level-0 table #2057: 4163889 bytes OK
+2020/03/06-01:43:36.268 9f9 Delete type=0 #2053
+2020/03/06-01:44:44.938 9f9 Level-0 table #2059: started
+2020/03/06-01:44:44.981 9f9 Level-0 table #2059: 4154870 bytes OK
+2020/03/06-01:44:44.989 9f9 Delete type=0 #2056
+2020/03/06-01:46:33.877 9f9 Level-0 table #2061: started
+2020/03/06-01:46:33.896 9f9 Level-0 table #2061: 4229303 bytes OK
+2020/03/06-01:46:33.902 9f9 Delete type=0 #2058
+2020/03/06-01:50:59.943 9f9 Level-0 table #2063: started
+2020/03/06-01:50:59.962 9f9 Level-0 table #2063: 4220726 bytes OK
+2020/03/06-01:50:59.968 9f9 Delete type=0 #2060
+2020/03/06-01:50:59.969 9f9 Compacting 4@0 + 1@1 files
+2020/03/06-01:50:59.988 9f9 Generated table #2064@0: 7 keys, 45210 bytes
+2020/03/06-01:50:59.988 9f9 Compacted 4@0 + 1@1 files => 45210 bytes
+2020/03/06-01:50:59.994 9f9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/06-01:50:59.995 9f9 Delete type=2 #2059
+2020/03/06-01:50:59.995 9f9 Delete type=2 #2057
+2020/03/06-01:50:59.995 9f9 Delete type=2 #2061
+2020/03/06-01:50:59.995 9f9 Delete type=2 #2055
+2020/03/06-01:50:59.995 9f9 Delete type=2 #2063
+2020/03/06-01:52:29.110 9f9 Level-0 table #2066: started
+2020/03/06-01:52:29.126 9f9 Level-0 table #2066: 4200149 bytes OK
+2020/03/06-01:52:29.131 9f9 Delete type=0 #2062
+2020/03/06-01:53:41.962 9f9 Level-0 table #2068: started
+2020/03/06-01:53:42.004 9f9 Level-0 table #2068: 4220567 bytes OK
+2020/03/06-01:53:42.011 9f9 Delete type=0 #2065
