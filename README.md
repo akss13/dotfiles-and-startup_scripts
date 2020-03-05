@@ -1,2 +1,2 @@
 # dotfiles-and-startup-scripts
-Hhe
+Not too good...it will be after sometime
