@@ -1,8 +1,0 @@
-[2020-03-05 23:04:37.167] [sharedprocess] [info] main {"machineId":"f6a92de1f141ba2313db59817f045317d8df47ccc54b79f23d754fb6d307f414","windowId":2}
-[2020-03-05 23:05:17.177] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-03-05 23:10:55.563] [sharedprocess] [info] Installing extension: foxundermoon.shell-format
-[2020-03-05 23:11:02.109] [sharedprocess] [info] Downloaded extension: foxundermoon.shell-format /tmp/0cfd8339-9585-4ccf-8c8d-cd9d15869149
-[2020-03-05 23:11:02.162] [sharedprocess] [info] Extracted extension to /home/akss13/.vscode/extensions/.foxundermoon.shell-format-7.0.1: foxundermoon.shell-format
-[2020-03-05 23:11:02.163] [sharedprocess] [info] Renamed to /home/akss13/.vscode/extensions/foxundermoon.shell-format-7.0.1
-[2020-03-05 23:11:02.164] [sharedprocess] [info] Installation completed. foxundermoon.shell-format
-[2020-03-05 23:11:02.167] [sharedprocess] [info] Extensions installed successfully: foxundermoon.shell-format

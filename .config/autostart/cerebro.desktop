@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=cerebro
-Comment=cerebrostartup script
-Exec=/tmp/.mount_AI0opT/usr/bin/cerebro
-StartupNotify=false
-Terminal=false

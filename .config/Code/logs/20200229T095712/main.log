@@ -1,4 +1,0 @@
-[2020-02-29 09:57:12.447] [main] [info] update#setState idle
-[2020-02-29 09:57:42.450] [main] [info] update#setState checking for updates
-[2020-02-29 09:57:42.458] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
-[2020-02-29 09:57:42.458] [main] [info] update#setState idle

@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo undervolt --core -100 --uncore -100 --analogio -100 --cache -100
+#add to sudo crontab -e
+#*/5 * * * * /home/akss13/te

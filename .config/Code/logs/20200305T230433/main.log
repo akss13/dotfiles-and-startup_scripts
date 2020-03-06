@@ -1,6 +1,0 @@
-[2020-03-05 23:04:33.846] [main] [info] update#setState idle
-[2020-03-05 23:05:03.860] [main] [info] update#setState checking for updates
-[2020-03-05 23:05:04.183] [main] [info] update#setState idle
-[2020-03-06 00:04:58.510] [main] [info] update#setState checking for updates
-[2020-03-06 00:05:08.527] [main] [error] Error: net::ERR_NAME_RESOLUTION_FAILED
-[2020-03-06 00:05:08.527] [main] [info] update#setState idle
