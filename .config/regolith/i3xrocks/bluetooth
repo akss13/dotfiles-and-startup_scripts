@@ -1,0 +1,7 @@
+#!/bin/bash
+var=$(python bluetooth_data.py 2>&1)
+echo "  ""$var"
+
+if [ ! -z "$button" ]; then
+    /usr/bin/i3-msg -q exec /usr/bin/gnome-control-center bluetooth
+fi

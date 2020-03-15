@@ -36,6 +36,15 @@ function install_repos() {
     echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >>"$HOME/.zshrc"
     echo 'source /etc/zsh_command_not_found' >>~/.zshrc
 }
+function other_dependencies() {
+    pip install bluetool
+    pip install pyserial
+    pip3 install pyserial
+    pip3 install undervolt
+    sudo snap install gnome-calendar
+    sudo apt install -y fonts-font-awesome
+}
 install_default
 install_ppa
 install_repos
+other_dependencies

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "<span font='FontAwesome 12'>$(date '+%d/%m  %a')  </span>"
+if [ ! -z "$button" ]; then
+    gnome-calendar &
+fi

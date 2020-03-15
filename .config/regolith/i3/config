@@ -9,6 +9,7 @@ set $alt Mod1
 
 # i3xrocks config file. Override this for custom status indicators on the bar.
 set $i3xrocks_config /home/akss13/.config/regolith/i3xrocks/config
+set $py3status_config /home/akss13/.config/py3status/config
 
 # path to terminal. Override this to specify a custom terminal.
 set $terminal_path /usr/bin/st
@@ -209,6 +210,7 @@ bindsym $mod+i bar mode toggle
 # Cause Settings app to float above tiled windows
 floating_maximum_size -1 x -1
 for_window [class="Gnome-control-center"] floating enable
+for_window [class="Gnome-calendar"] floating enable
 
 # resize window (you can also use the mouse for that)
 mode "Resize Mode" {
@@ -326,6 +328,7 @@ bar {
   font $i3-wm.bar.font
   separator_symbol " "
   status_command i3xrocks -c $i3xrocks_config
+#  status_command py3status -c $py3status_config
   tray_output none
   strip_workspace_numbers yes
 

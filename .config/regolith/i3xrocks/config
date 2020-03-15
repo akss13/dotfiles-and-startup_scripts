@@ -22,8 +22,8 @@
 #
 # The top properties below are applied to every block, but can be overridden.
 # Each block command defaults to the script name to avoid boilerplate.
-command=/usr/share/i3xrocks/$BLOCK_NAME
-separator_block_width=18
+command=/home/akss13/.config/regolith/i3xrocks/$BLOCK_NAME
+separator_block_width=15
 markup=pango
 color=xresource:i3xrocks.value.color
 label_color=xresource:i3xrocks.label.color
@@ -39,6 +39,11 @@ font=pango:FontAwesome 12
 # Displays currently connected VPN using the nm-cli tool.
 #[nm-vpn]
 #interval=5
+
+#Bluetooth
+[bluetooth]
+interval=10
+separator_block_width=10
 
 # Wifi
 #
@@ -76,21 +81,24 @@ interval=5
 # The battery instance defaults to 0.
 [battery3]
 interval=30
-
+separator_block_width=10
 # Rofication
 #
 # Displays notifications.
-[rofication]
-command=/usr/share/i3xrocks/rofication-statusi3blocks.py
-interval=10
+#[rofication]
+#command=/usr/share/i3xrocks/rofication-statusi3blocks.py
+#interval=10
 
 # Date Time
-#[my_time]
+[my_time]
 #color=#00FFFF
 #command=date '+%H:%M %d/%m %a '
 #echo "<span color=\"${LABEL_COLOR}\">$LABEL_ICON</span><span font_desc=\"${VALUE_FONT}\" color=\"${VALUE_COLOR}\">$(date "+ %H:%M %d/%m %a") </span>"
 #command=echo "$(date '+%H:%M %d/%m %a')"
-command=echo "<span foreground='cyan' font='FontAwesome 12'>$(date '+%H:%M')  </span><span font='FontAwesome 12'>$(date '+%d/%m  %a')  </span>"
+#command=echo "<span foreground='cyan' font='FontAwesome 12'>$(date '+%H:%M')  </span><span font='FontAwesome 12'>$(date '+%d/%m  %a')  </span>"
+interval=1
+separator_block_width=0
+[date]
 interval=1
 
 # Show title of focused window
