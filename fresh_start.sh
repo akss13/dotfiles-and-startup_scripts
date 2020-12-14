@@ -11,7 +11,7 @@ function install_default() {
         sudo add-apt-repository restricted
         sudo add-apt-repository multiverse
         sudo apt update && sudo apt full-upgrade -y
-        sudo apt install xpad lm-sensors git nautilus-admin gnome-tweak-tool htop neofetch seahorse-nautilus arc-theme tlp python3-pip python-pip build-essential audacious telegram-desktop unrar cmake xclip zsh powerline fonts-powerline clang-format nmap net-tools
+        sudo apt install -y xpad lm-sensors git nautilus-admin gnome-tweak-tool htop neofetch seahorse-nautilus arc-theme tlp python3-pip python-pip build-essential audacious telegram-desktop unrar cmake xclip zsh powerline fonts-powerline clang-format nmap net-tools
     fi
 }
 function install_ppa() {
@@ -41,8 +41,10 @@ function other_dependencies() {
     pip install pyserial
     pip3 install pyserial
     pip3 install undervolt
-    sudo snap install gnome-calendar
+    sudo snap install gnome-calendar -y
     sudo apt install -y fonts-font-awesome
+    sudo apt install tree autossh -y
+    sudo snap install -y ngrok
 }
 install_default
 install_ppa
