@@ -1,0 +1,5 @@
+show_calendar = 1
+close_on_unfocus = 1
+mainwindow_xoffset=-51
+mainwindow_yoffset=-33
+force_lang=en_GB.utf8

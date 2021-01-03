@@ -1,0 +1,73 @@
+# Alias definitions.
+#for git
+gitp () {
+git add -A && git commit -a -m "$1" && git push;
+}
+
+# for c++
+function cpprun () {
+g++ -o test "$1" && ./test;
+}
+
+# for compiling c++
+function cppcompile () {
+g++ -o test "$1";
+}
+
+#for compiling with input file
+function cpprunin(){
+g++ "$1" -o test && ./test <input.txt;
+}
+
+#for compiling with input file and output to file
+function cpprunio(){
+g++ "$1" -o test && ./test <input.txt >output.txt;
+}
+
+#for c program
+function crun () {
+gcc -o test "$1" && ./test;
+}
+
+# for compiling c
+function ccompile () {
+gcc -o test "$1";
+}
+
+#search rasp-pi
+function searchpi () {
+sudo nmap -sn $1/24 | awk '/^Nmap/{ip=$NF}/B8:27:EB/{print ip}';
+}
+
+#copy command output to clipboard
+#usage example
+#pwd | copy
+#add remove newline feature
+function copy () {
+xclip -selection clipboard -rmlastnl
+}
+
+#set transparency of any windows and app
+#higher value increases transparency(because inverting)
+function opaque () {
+value=`expr 100 - $1`
+xprop -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * $value / 100)))
+}
+
+#copy last typed command
+function copylast () {
+fc -ln -1 | awk '{$1=$1}1' | copy
+}
+
+#convert string to lowercase
+function lower () {
+var="$1"
+echo ${var:l}
+}
+#create file names with all lower case letters and spaces removed with underscore
+function cfname () {
+var="$1"
+var=${var:l}
+var=${var// /_}
+echo $var
+}

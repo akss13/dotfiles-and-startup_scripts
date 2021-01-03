@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "<span foreground='cyan' font='FontAwesome 12'>$(date '+%H:%M')  </span>"
-
-if [ ! -z "$button" ]; then
-    /usr/bin/i3-msg -q exec /usr/bin/gnome-control-center datetime
-fi

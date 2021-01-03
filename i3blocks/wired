@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+check_eth=$(ls /sys/class/net/|grep enp)
+if [ -n "$check_eth" ]; then
+    echo " Wired connected"
+fi
+
+if [ "$button" == "1" ]; then
+    /usr/bin/i3-msg -q exec /usr/bin/gnome-control-center Network
+fi

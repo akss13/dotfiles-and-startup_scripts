@@ -1,0 +1,10 @@
+configuration {
+	modi: 			"drun,run";
+	width: 			650;
+	lines: 			12;
+	font:                   "Source Code Pro Medium 15";
+	show-match:             false;
+	separator-style: 	"solid";
+	hide-scrollbar: 	true;
+	theme:			"/home/akss13/.config/rofi/rofi_theme";
+	}

@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "$(date '+%A %d/%m')"
+
+if [ "$button" == "1" ]; then
+    /usr/bin/i3-msg -q exec /usr/bin/gsimplecal
+fi

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+INTERFACE="${INTERFACE:-wlan0}"
+
+ESSID=$(/sbin/iwconfig $INTERFACE | perl -n -e'/ESSID:"(.*?)"/ && print $1')
+
+if [ -n "$ESSID" ]; then
+    echo " "$ESSID
+fi
+
+if [ "$button" == "1" ]; then
+    /usr/bin/i3-msg -q exec /usr/bin/gnome-control-center wifi
+fi
+

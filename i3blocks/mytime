@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "$(date '+%H:%M:%S')"
+
+
+if [ "$button" == "1" ]; then
+    /usr/bin/i3-msg -q exec /usr/bin/gnome-control-center datetime
+fi

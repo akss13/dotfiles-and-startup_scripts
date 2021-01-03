@@ -1,15 +1,15 @@
 # dotfiles-and-startup-scripts
-Not too good...it will be after sometime
+Not too good...still working on it :)
 ---
 The following dotfiles and scripts work with the following system configutation:
 
-+ OS: [Regolith desktop](https://regolith-linux.org/) v1.3.1 
-+ Shell: <b>zsh 5.7.1</b>
++ OS: <b>Arch Linux</b>
++ WM: <b>i3-gaps</b>
++ DE: <b>GNOME 3.38.2</b>
++ Kernel: <b>5.10.3-arch1-1</b>
++ Shell: <b>zsh 5.8</b>
 + Theme: <b>Arc-Dark</b>
-+ Icons: <b>Numix-Circle</b>
++ Icons: <b>elementary</b>
 + Terminal: <b>terminator</b><br>
-
-### The above configuration was setup on prebuilt iso of Regolith desktop based on <b>Ubuntu 19.10 x86_64</b> .
 ---
-+ The [fresh_start.sh](https://github.com/akss13/dotfiles-and-startup_scripts/blob/master/fresh_start.sh) aims to automate things to be done once at a fresh install of os.
 + The [te](https://github.com/akss13/dotfiles-and-startup_scripts/blob/master/te) script runs on as cron job for undervolting system 
