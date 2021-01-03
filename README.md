@@ -13,9 +13,9 @@ The following dotfiles and scripts work with the following system configutation:
 + Terminal: <b>terminator</b><br>
 ---
 ## Screenshots
-![alt text](https://github.com/akss13/dotfiles-and-startup_scripts/1.png)
+![alt text](https://github.com/akss13/dotfiles-and-startup_scripts/blob/master/1.png)
 
-![alt text](https://github.com/akss13/dotfiles-and-startup_scripts/2.png)
+![alt text](https://github.com/akss13/dotfiles-and-startup_scripts/blob/master/2.png)
 
 ---
 + The [te](https://github.com/akss13/dotfiles-and-startup_scripts/blob/master/te) script runs on as cron job for undervolting system 
