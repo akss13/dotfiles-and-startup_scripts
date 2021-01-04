@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 1,
+    "terminal.integrated.fontFamily": "PowerlineSymbols,'monospace'",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 13,
+    "code-runner.runInTerminal": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true
+}
