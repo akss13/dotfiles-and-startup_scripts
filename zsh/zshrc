@@ -103,3 +103,6 @@ if [ -f ~/.zsh_aliases ]; then
 	. ~/.zsh_aliases
 fi
 export PROMPT_EOL_MARK=''
+
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$HOME/bin:$PATH"

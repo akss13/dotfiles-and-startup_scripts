@@ -64,6 +64,7 @@ function lower () {
 var="$1"
 echo ${var:l}
 }
+
 #create file names with all lower case letters and spaces removed with underscore
 function cfname () {
 var="$1"
@@ -71,3 +72,8 @@ var=${var:l}
 var=${var// /_}
 echo $var
 }
+
+#check headphone battery
+#function headphone_bat () {
+#bluetooth_battery 70:99:1C:B0:86:5A
+#}

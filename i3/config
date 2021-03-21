@@ -228,3 +228,7 @@ exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13
 exec --no-startup-id xpad
 exec --no-startup-id rhythmbox
 exec --no-startup-id spotify
+
+assign [class="Steam"] $ws3
+assign [class="csgo_linux64"] $ws3
+
