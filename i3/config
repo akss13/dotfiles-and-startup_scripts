@@ -145,14 +145,14 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym Left resize shrink width 6 px or 6 ppt
-        bindsym Down resize grow height 6 px or 6 ppt
-        bindsym Up resize shrink height 6 px or 6 ppt
-        bindsym Right resize grow width 6 px or 6 ppt
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
 
         # change gaps interactively
-        bindsym minus gaps inner current minus 6
-        bindsym plus gaps inner current plus 6
+        bindsym minus gaps inner current minus 5
+        bindsym plus gaps inner current plus 5
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -225,10 +225,16 @@ bindsym $mod+Shift+n exec nautilus
 
 #Restore workspace 1 layout
 exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13/.config/i3/workspace-1.json'"
-exec --no-startup-id xpad
-exec --no-startup-id rhythmbox
-exec --no-startup-id spotify
+workspace $ws1 gaps inner 25
 
+exec --no-startup-id xpad
+assign [class="xpad"] $ws1
+exec --no-startup-id rhythmbox
+assign [class="Rhythmbox"] $ws1
+exec --no-startup-id spotify
+assign [class="Spotify"] $ws1
+
+#Additional assign
 assign [class="Steam"] $ws3
 assign [class="csgo_linux64"] $ws3
 

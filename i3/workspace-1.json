@@ -16,8 +16,8 @@
        {
        "class": "^xpad$",
        "instance": "^xpad$",
-       "title": "^\\-\\-\\-\\-\\-\\-\\-NOTES\\-\\-\\-\\-\\-\\-\\-$",
-       "window_role": "^info\\-XFO9V0$"
+       //"title": "^\\-\\-\\-\\-\\-\\-\\-NOTES\\-\\-\\-\\-\\-\\-\\-$",
+       "window_role": "^info\\-YM0T00$"
        }
     ],
     "type": "con"
