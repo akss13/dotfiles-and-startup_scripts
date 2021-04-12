@@ -135,7 +135,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec i3-msg exit
 
 # lock the screen
-bindsym $mod+Escape exec dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
+bindsym $mod+Escape exec light-locker-command -l
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -233,6 +233,9 @@ exec --no-startup-id rhythmbox
 assign [class="Rhythmbox"] $ws1
 exec --no-startup-id spotify
 assign [class="Spotify"] $ws1
+
+#Start i3 on worksapce 2
+#exec --no-startup-id "i3-msg 'workspace number 2 '"
 
 #Additional assign
 assign [class="Steam"] $ws3
