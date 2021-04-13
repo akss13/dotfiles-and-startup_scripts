@@ -59,7 +59,7 @@ echo "$VALUE_COLOR"
 if [ "$button" == "1" ]; then
     #/usr/bin/i3-msg -q exec /usr/bin/gnome-control-center power
     #headphone battery status
-    headphone=$(/home/akss13/bin/Bluetooth_Headset_Battery_Level/bluetooth_battery.py 70:99:1C:B0:86:5A)
+    headphone=$(/home/akss13/bin/bluetooth_battery_bin 70:99:1C:B0:86:5A)
     strip="Battery level for 70:99:1C:B0:86:5A is "
     headphone=$(echo "${headphone#$strip}")
     #mouse battery status

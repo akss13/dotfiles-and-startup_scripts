@@ -1,5 +1,5 @@
 #!/bin/bash
-status=$(bluetooth_battery 70:99:1C:B0:86:5A)
+status=$(bluetooth_battery_bin 70:99:1C:B0:86:5A)
 # echo $status
 strip="Battery level for 70:99:1C:B0:86:5A is "
 echo "${status#$strip}"
