@@ -1,10 +1,13 @@
 configuration {
-	modi: 			"drun,run";
-	width: 			650;
-	lines: 			12;
-	font:                   "Source Code Pro Medium 15";
-	show-match:             false;
-	separator-style: 	"solid";
-	hide-scrollbar: 	true;
-	theme:			"/home/akss13/.config/rofi/rofi_theme";
-	}
+	modi:			"drun,ssh";
+	terminal:		"terminator";
+	font:			"Source Code Pro Medium 18";
+	show-icons:		true;
+	ssh-command:	"{terminal} -e '{ssh-client} {host} [-p {port}]'";
+	theme:			"./rofi_theme.rasi";
+	icon-theme:		"Elementary";
+	display-drun:	" drun";
+	display-ssh:	" ssh";
+	sidebar-mode:	true;
+	scroll-method: 1;
+}

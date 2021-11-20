@@ -77,3 +77,28 @@ echo $var
 #function headphone_bat () {
 #bluetooth_battery 70:99:1C:B0:86:5A
 #}
+
+#load virtualbox kernel modules
+function load_virtualbox () {
+sudo modprobe vboxdrv
+sudo modprobe vboxnetadp
+sudo modprobe vboxnetflt
+}
+
+#update pacman mirrors with reflector
+function reflector_update () {
+sudo reflector --latest 20 --protocol https --fastest 10 --sort rate --save /etc/pacman.d/mirrorlist
+}
+
+#temporary solution to run steam and csgo
+function run_steam () {
+rm -rf ~/.cache/mesa_shader_cache && MESA_GLSL_CACHE_DISABLE=1 steam
+}
+
+#temporary solution to run steam and csgo 2
+function steam_malloc () {
+cp /usr/lib64/libtcmalloc_minimal.so.4.5.9 "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64"
+rm "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.0.orig"
+mv "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.0" "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.0.orig"
+mv "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.4.5.9" "/home/akss13/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/bin/linux64/libtcmalloc_minimal.so.0"
+}

@@ -1,0 +1,12 @@
+#!/bin/zsh
+n=0
+while [ true ]; do
+    xdotool mousemove 500 500
+    n="$(echo "$n+1"|bc -l)"
+    echo $n
+    sleep 120s
+    xdotool mousemove 180 700
+    n="$(echo "$n+1"|bc -l)"
+    echo $n
+    sleep 120s
+done

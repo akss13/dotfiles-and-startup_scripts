@@ -22,13 +22,14 @@ font pango:Source Code Pro Medium 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec --no-startup-id terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 #Launch rofi
-bindsym $mod+space exec --no-startup-id rofi -show drun -icon-theme "Elementary" -show-icons -method fuzzy -config /home/akss13/.config/rofi/config.rasi -display-drun " drun:"
+#bindsym $mod+space exec --no-startup-id rofi -show drun -icon-theme "Elementary" -show-icons -matching fuzzy -config "/home/akss13/.config/rofi/config.rasi" -display-drun " drun:"
+bindsym $mod+space exec --no-startup-id rofi -show drun
 
 # change focus
 bindsym $mod+Left focus left
@@ -132,10 +133,10 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec i3-msg exit
+bindsym $mod+Shift+e exec --no-startup-id i3-msg exit
 
 # lock the screen
-bindsym $mod+Escape exec dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
+bindsym $mod+Escape exec --no-startup-id xdg-screensaver lock
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -210,13 +211,13 @@ hide_edge_borders smart
 popup_during_fullscreen smart
 
 # additional binds for multi-clipboard
-bindsym $alt+1 exec /home/akss13/bin/shortcut_c1.sh
-bindsym $alt+2 exec /home/akss13/bin/shortcut_c2.sh
-bindsym $alt+3 exec /home/akss13/bin/shortcut_c3.sh
+bindsym $alt+1 exec --no-startup-id /home/akss13/bin/shortcut_c1.sh
+bindsym $alt+2 exec --no-startup-id /home/akss13/bin/shortcut_c2.sh
+bindsym $alt+3 exec --no-startup-id /home/akss13/bin/shortcut_c3.sh
 
-bindsym Shift+$alt+1 exec /home/akss13/bin/shortcut_v1.sh
-bindsym Shift+$alt+2 exec /home/akss13/bin/shortcut_v2.sh
-bindsym Shift+$alt+3 exec /home/akss13/bin/shortcut_v3.sh
+bindsym Shift+$alt+1 exec --no-startup-id /home/akss13/bin/shortcut_v1.sh
+bindsym Shift+$alt+2 exec --no-startup-id /home/akss13/bin/shortcut_v2.sh
+bindsym Shift+$alt+3 exec --no-startup-id /home/akss13/bin/shortcut_v3.sh
 
 for_window [class="Gnome-control-center"] floating enable
 for_window [class="Gnome-calculator"] floating enable
@@ -227,28 +228,29 @@ gaps inner 5
 gaps outer 0
 
 #Additional exec
-exec picom --config /home/akss13/.config/picom/picom.conf
-exec_always feh --bg-fill /home/akss13/Pictures/wallpapers/active.*
+exec --no-startup-id picom --config /home/akss13/.config/picom/picom.conf
+exec_always --no-startup-id feh --bg-fill /home/akss13/Pictures/wallpapers/active.*
 
 #Additional binds
-bindsym $mod+Shift+Return exec /usr/bin/google-chrome-stable
-bindsym $mod+Shift+n exec nautilus
+bindsym $mod+Shift+Return exec --no-startup-id /usr/bin/google-chrome-stable --use-gl=desktop --enable-features=VaapiVideoDecoder --ignore-gpu-blocklist --enable-gpu-rasterization --enable-zero-copy --disable-features=UseOzonePlatform
+bindsym $mod+Shift+n exec --no-startup-id nautilus
+bindsym $mod+Shift+asciitilde exec --no-startup-id terminator -T neofetch -e "neofetch&&zsh"
 
 #Restore workspace 1 layout
-exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13/.config/i3/workspace-1.json'"
+#exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13/.config/i3/workspace-1.json'"
 workspace $ws1 gaps inner 25
 
-exec --no-startup-id xpad
-assign [class="xpad"] $ws1
-exec --no-startup-id rhythmbox
-assign [class="Rhythmbox"] $ws1
-exec --no-startup-id spotify
-assign [class="Spotify"] $ws1
+#exec --no-startup-id spotify
+#assign [class="Spotify"] $ws1
+#exec --no-startup-id xpad
+#assign [class="xpad"] $ws1
+#exec --no-startup-id rhythmbox
+#assign [class="Rhythmbox"] $ws1
 
 #Start i3 on worksapce 2
 #exec --no-startup-id "i3-msg 'workspace number 2 '"
 
 #Additional assign
-assign [class="Steam"] $ws3
-assign [class="csgo_linux64"] $ws3
+assign [class="Steam"] $ws7
+assign [class="csgo_linux64"] $ws7
 

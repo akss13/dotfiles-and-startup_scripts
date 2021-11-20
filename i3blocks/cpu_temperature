@@ -2,22 +2,21 @@
 
 high_temp=90.0
 mod_temp=70.0
-c0=$(sensors | sed -rn 's/.*Core 0:\s+.([0-9.]+).*/\1/p')
-c1=$(sensors | sed -rn 's/.*Core 1:\s+.([0-9.]+).*/\1/p')
-c2=$(sensors | sed -rn 's/.*Core 2:\s+.([0-9.]+).*/\1/p')
-c3=$(sensors | sed -rn 's/.*Core 3:\s+.([0-9.]+).*/\1/p')
-package=$(sensors | sed -rn 's/.*Package id 0:\s+.([0-9.]+).*/\1/p')
+sensors_string=$(sensors)
+c0=$(echo $sensors_string | sed -rn 's/.*Core 0:\s+.([0-9.]+).*/\1/p')
+c1=$(echo $sensors_string | sed -rn 's/.*Core 1:\s+.([0-9.]+).*/\1/p')
+c2=$(echo $sensors_string | sed -rn 's/.*Core 2:\s+.([0-9.]+).*/\1/p')
+c3=$(echo $sensors_string | sed -rn 's/.*Core 3:\s+.([0-9.]+).*/\1/p')
+package=$(echo $sensors_string | sed -rn 's/.*Package id 0:\s+.([0-9.]+).*/\1/p')
 total_t=$(echo "$c0 + $c1 + $c2 + $c3 + $package" | bc -l)
 TEMP=$(echo "scale=1; $total_t / 5" | bc -l)
 echo " "$TEMP"℃"
 echo " "$TEMP"℃"
-if (( $(echo "$TEMP > $high_temp" |bc -l) )); then
+if (($(echo "$TEMP > $high_temp" | bc -l))); then
     COLOR="#d93b3b"
-elif (( $(echo "$TEMP > $mod_temp" |bc -l) )); then
+elif (($(echo "$TEMP > $mod_temp" | bc -l))); then
     COLOR="#ebd63d"
 else
     COLOR="#E5E9F0"
 fi
 echo $COLOR
-
-

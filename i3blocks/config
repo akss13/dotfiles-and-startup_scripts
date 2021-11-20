@@ -3,8 +3,11 @@ command=/home/akss13/.config/i3blocks/$BLOCK_NAME
 separator=true
 separator_block_width=17
 
+[mic_mute]
+interval=1
+
 [bluetooth]
-interval=5
+interval=3
 separator_block_width=7
 
 [wifi]
@@ -16,17 +19,17 @@ interval=5
 separator_block_width=10
 
 [cpu_usage]
-interval=5
+interval=3
 
 [cpu_temperature]
-interval=5
+interval=3
 
 [battery]
-interval=15
+interval=5
 
 [mytime]
 color=#2C93F9
 interval=1
 
 [date]
-interval=1
+interval=10

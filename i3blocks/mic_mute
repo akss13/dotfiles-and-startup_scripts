@@ -1,0 +1,14 @@
+#!/bin/bash
+
+state=$(pactl list sources | grep "Name: alsa_input.pci-0000_00_1f.3.analog-stereo" --after-context=6 | grep "Mute" | cut -d ":" -f 2 | xargs)
+# echo $state
+
+if [ "$state" == "yes" ]; then
+    echo " Mic off"
+fi
+if [ "$state" == "no" ]; then
+    echo " Mic on"
+fi
+if [ "$button" == "1" ]; then
+    xdotool key XF86AudioMicMute
+fi
