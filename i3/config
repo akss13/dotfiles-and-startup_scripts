@@ -171,7 +171,7 @@ bindsym $mod+i bar mode toggle
 
 #Window border color
 #class			border		background	text		indicator	child_border
-client.focused		#4C566A		#4C566A		#E5E9F0		#4C566A		#4C566A
+client.focused		#81A1C1		#81A1C1		#E5E9F0		#4C566A		#4C566A
 client.focused_inactive	#2E3440		#2E3440		#E5E9F0		#2E3440		#2E3440
 client.unfocused	#2E3440		#2E3440		#E5E9F0		#2E3440		#2E3440
 client.urgent		#4C566A		#BF616A		#E5E9F0		#4C566A		#4C566A
@@ -237,15 +237,15 @@ bindsym $mod+Shift+n exec --no-startup-id nautilus
 bindsym $mod+Shift+asciitilde exec --no-startup-id terminator -T neofetch -e "neofetch&&zsh"
 
 #Restore workspace 1 layout
-#exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13/.config/i3/workspace-1.json'"
+exec --no-startup-id "i3-msg 'workspace number 1 ; append_layout /home/akss13/.config/i3/workspace-1.json'"
 workspace $ws1 gaps inner 25
 
-#exec --no-startup-id spotify
-#assign [class="Spotify"] $ws1
-#exec --no-startup-id xpad
-#assign [class="xpad"] $ws1
-#exec --no-startup-id rhythmbox
-#assign [class="Rhythmbox"] $ws1
+exec --no-startup-id spotify
+assign [class="Spotify"] $ws1
+exec --no-startup-id xpad
+assign [class="xpad"] $ws1
+exec --no-startup-id rhythmbox
+assign [class="Rhythmbox"] $ws1
 
 #Start i3 on worksapce 2
 #exec --no-startup-id "i3-msg 'workspace number 2 '"

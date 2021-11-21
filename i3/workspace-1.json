@@ -4,20 +4,21 @@
     "current_border_width": 2,
     "floating": "auto_off",
     "geometry": {
-       "height": 1045,
-       "width": 954,
-       "x": 4,
-       "y": 4
+       "height": 1005,
+       "width": 604,
+       "x": 24,
+       "y": 24
     },
     "marks": [],
-    "name": "-------NOTES-------",
-    "percent": 0.5,
+    "name": "->Notes",
+    "percent": 0.45,
     "swallows": [
        {
-       "class": "^xpad$",
-       "instance": "^xpad$",
-       //"title": "^\\-\\-\\-\\-\\-\\-\\-NOTES\\-\\-\\-\\-\\-\\-\\-$",
-	"window_role": "^info\\-683S10$"
+        "class": "^xpad$",
+        "instance": "^xpad$"
+       // "machine": "^Aakarsh$",
+       // "title": "^\\-\\>Notes$",
+       // "window_role": "^info\\-PUX7C1$"
        }
     ],
     "type": "con"
@@ -29,7 +30,7 @@
     "floating": "auto_off",
     "layout": "splitv",
     "marks": [],
-    "percent": 0.5,
+    "percent": 0.55,
     "type": "con",
     "nodes": [
         {
@@ -37,18 +38,19 @@
             "current_border_width": 2,
             "floating": "auto_off",
             "geometry": {
-               "height": 516,
-               "width": 950,
-               "x": 962,
-               "y": 4
+               "height": 1001,
+               "width": 612,
+               "x": 652,
+               "y": 24
             },
             "marks": [],
             "name": "Rhythmbox",
-            "percent": 0.38,
+            "percent": 0.3,
             "swallows": [
                {
-               "class": "^Rhythmbox$",
-               "instance": "^rhythmbox$"
+                "class": "^Rhythmbox$",
+                "instance": "^rhythmbox$"
+               // "machine": "^Aakarsh$",
                // "title": "^Rhythmbox$"
                }
             ],
@@ -65,13 +67,14 @@
                "y": 0
             },
             "marks": [],
-            "name": "Spotify Free",
-            "percent": 0.62,
+            "name": "Spotify",
+            "percent": 0.7,
             "swallows": [
                {
-               "class": "^Spotify$",
-               "instance": "^spotify$"
-               // "title": "^Spotify\\ Free$"
+                "class": "^Spotify$",
+                "instance": "^spotify$"
+               // "machine": "^Aakarsh$",
+               // "title": "^Spotify$"
                }
             ],
             "type": "con"

@@ -8,8 +8,13 @@ c1=$(echo $sensors_string | sed -rn 's/.*Core 1:\s+.([0-9.]+).*/\1/p')
 c2=$(echo $sensors_string | sed -rn 's/.*Core 2:\s+.([0-9.]+).*/\1/p')
 c3=$(echo $sensors_string | sed -rn 's/.*Core 3:\s+.([0-9.]+).*/\1/p')
 package=$(echo $sensors_string | sed -rn 's/.*Package id 0:\s+.([0-9.]+).*/\1/p')
-total_t=$(echo "$c0 + $c1 + $c2 + $c3 + $package" | bc -l)
-TEMP=$(echo "scale=1; $total_t / 5" | bc -l)
+
+#total_t=$(echo "$c0 + $c1 + $c2 + $c3 + $package" | bc -l)
+#TEMP=$(echo "scale=1; $total_t / 5" | bc -l)
+
+total_t=$(echo $c0 $c1 $c2 $c3)
+TEMP=($(for l in ${total_t[@]}; do echo $l; done | sort -r))
+
 echo " "$TEMP"℃"
 echo " "$TEMP"℃"
 if (($(echo "$TEMP > $high_temp" | bc -l))); then
